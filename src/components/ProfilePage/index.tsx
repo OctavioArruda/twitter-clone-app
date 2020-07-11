@@ -1,5 +1,14 @@
 import React from 'react';
 
+import { 
+    Container, 
+    Banner, 
+    Avatar,
+    ProfileData, 
+    LocationIcon, 
+    CakeIcon, 
+    Followage } from './styles';
+
 const ProfilePage: React.FC = () => {
   return (
     <Container>
@@ -8,14 +17,16 @@ const ProfilePage: React.FC = () => {
         </Banner>
 
         <ProfileData>
-            <EditButton outlined>
-                Editar Perfil
-            </EditButton>
+            {/*  <EditButton outlined>
+                 Editar Perfil
+             </EditButton> */}
             <h1>Octavio Arruda</h1>
             <h2>@Schifer1_</h2>
 
             <p>
-                Lorem ipsum dolor sit amet <a href="https://rocketseat.com.br">@Rocketseat</a>.
+                Web developer.
+                GitHub: <a href="https://github.com/Schifer">Schifer</a>.
+                Linkedin: <a href="https://www.linkedin.com/in/octavio-arruda/">Octavio Arruda</a>.
             </p>
 
             <ul>
@@ -29,14 +40,14 @@ const ProfilePage: React.FC = () => {
                 </li>
             </ul>
 
-            <FollowAge>
+            <Followage>
                 <span>
                     seguindo <strong>157</strong>
                 </span>
                 <span>
                     <strong>172 </strong> seguidores
                 </span>
-            </FollowAge>
+            </Followage>
         </ProfileData>
     </Container>
   );
