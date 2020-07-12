@@ -7,7 +7,8 @@ import {
     ProfileData, 
     LocationIcon, 
     CakeIcon, 
-    Followage } from './styles';
+    Followage,
+    EditButton, } from './styles';
 
 const ProfilePage: React.FC = () => {
   return (
@@ -17,9 +18,9 @@ const ProfilePage: React.FC = () => {
         </Banner>
 
         <ProfileData>
-            {/*  <EditButton outlined>
-                 Editar Perfil
-             </EditButton> */}
+            <EditButton outlined>
+                Editar Perfil
+            </EditButton> 
             <h1>Octavio Arruda</h1>
             <h2>@Schifer1_</h2>
 
