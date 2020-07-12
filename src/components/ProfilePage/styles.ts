@@ -2,7 +2,7 @@ import styled, { css } from "styled-components";
 
 import { LocationOn, Cake } from '../../styles/Icons';
 
-export const  Container = styled.div`
+export const Container = styled.div`
     display: flex;
     flex-direction: column;
 
@@ -15,7 +15,7 @@ export const  Container = styled.div`
     }
 
 `;  
-export const  Banner = styled.div`
+export const Banner = styled.div`
     flex-shrink: 0;
 
     width: 100%;
@@ -25,7 +25,7 @@ export const  Banner = styled.div`
 
     position: relative;
 `;  
-export const  Avatar = styled.div`
+export const Avatar = styled.div`
     width: max(45px, min(135px, 22vw));
     height: max(45px, min(135px, 22vw));
 
@@ -37,7 +37,7 @@ export const  Avatar = styled.div`
     bottom: max(-60px, -10vw);
     left: 15px;
 `; 
-export const  ProfileData = styled.div`
+export const ProfileData = styled.div`
     padding: min(calc(10vw + 7px), 67px) 16px 0;
 
     display: flex;
@@ -94,8 +94,8 @@ const iconCSS = css`
     color: var(--gray);
 `
 
-export const  LocationIcon = styled(LocationOn)`${iconCSS}`;  
-export const  CakeIcon = styled(Cake)`${iconCSS}`;  
+export const LocationIcon = styled(LocationOn)`${iconCSS}`;  
+export const CakeIcon = styled(Cake)`${iconCSS}`;  
 
 export const  Followage = styled.div`
     display: flex;
