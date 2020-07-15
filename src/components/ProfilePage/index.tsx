@@ -24,7 +24,7 @@ const ProfilePage: React.FC = () => {
                 Editar Perfil
             </EditButton> 
             <h1>Octavio Arruda</h1>
-            <h2>@Schifer1_</h2>
+            <h2>@OctavioArruda</h2>
 
             <p>
                 Web developer.
